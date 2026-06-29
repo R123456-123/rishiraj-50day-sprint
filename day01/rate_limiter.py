@@ -25,8 +25,7 @@ class TokenRateLimiter():
         self.tokens = min(self.max_tokens, self.tokens + added)
         self.last_refill = curr_time
 
-limiter =  TokenRateLimiter(5, 1.0)  
-#limiter = TokenRateLimiter(max_token = 10, refill_rate = 1.0)
+limiter = TokenRateLimiter(max_token = 10, refill_rate = 1.0)
 
 
 async def rate_limit_dep():

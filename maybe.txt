@@ -1,0 +1,2 @@
+Annotated — every time you want reusable validation rules (PositiveFloat, BedCount, EmailStr)
+Optional — every time a field isn't required (user's middle name, property garage, API response fields that might be missing)
