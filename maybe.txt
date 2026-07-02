@@ -1,2 +1,7 @@
-Annotated — every time you want reusable validation rules (PositiveFloat, BedCount, EmailStr)
-Optional — every time a field isn't required (user's middle name, property garage, API response fields that might be missing)
+- Annotated — every time you want reusable validation rules (PositiveFloat, BedCount, EmailStr)
+- Optional — every time a field isn't required (user's middle name, property garage, API response fields that might be missing)
+- A decorator is simply a function that takes another function, adds some behavior to it, and returns a new function.
+Think of it like this:
+Original function → Decorator → Enhanced function
+The original function is not necessarily changed internally. Instead, it is wrapped with extra code.
+- 
